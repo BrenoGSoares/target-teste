@@ -17,11 +17,3 @@ if fib(num):
     print(f"{num} está presente na sequência")
 else:
     print(f"{num} não está presente na sequência")
-
-# 5
-
-word = list(str(input()))
-new_word = []
-for letter in range(len(word) - 1, -1, -1):
-    new_word.append(word[letter])
-print("".join(new_word))
